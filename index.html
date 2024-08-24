@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">MrFLych</a>
+
+        <nav>
+            <a href="#" class="active"> Home</a>
+            <a href="#" >Services</a>
+            <a href="#" >Skills</a>
+            <a href="#" >Education</a>
+            <a href="#" >Experience</a>
+            <a href="#" >Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Flych</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p> Saya adalah seorang pelajar dengan fokus pada IT, khususnya hacking dan cybersecurity. Saya suka mengeksplorasi sistem, mempelajari exploit, dan memahami bagaimana cyber threats bekerja. Saat ini, saya mendalami ethical hacking dan network defense untuk menguasai teknik-teknik dalam menjaga keamanan digital. Saya bercita-cita menjadi cybersecurity specialist yang dapat mengamankan data dan infrastruktur dari serangan siber.</p>
+            <div class="social-icons">
+                <a id="linkedin" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a id="github" href="#"><i class="fa-brands fa-github"></i></a>
+                <a id="twitter" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a id="instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#" id="hireMe" class="btn">Hire me</a>
+        </div>
+        <script>
+    document.getElementById("navHome").onclick = function() {
+        showPage("homePage");
+        setActiveNav("navHome");
+    };
+
+    document.getElementById("navServices").onclick = function() {
+        showPage("servicesPage");
+        setActiveNav("navServices");
+    };
+
+    document.getElementById("navSkills").onclick = function() {
+        showPage("skillsPage");
+        setActiveNav("navSkills");
+    };
+
+    document.getElementById("navEducation").onclick = function() {
+        showPage("educationPage");
+        setActiveNav("navEducation");
+    };
+
+    document.getElementById("navExperience").onclick = function() {
+        showPage("experiencePage");
+        setActiveNav("navExperience");
+    };
+
+    document.getElementById("navContact").onclick = function() {
+        showPage("contactPage");
+        setActiveNav("navContact");
+    };
+
+    function showPage(pageId) {
+        const pages = document.querySelectorAll('.page');
+        pages.forEach(page => {
+            page.classList.remove('active');
+        });
+        document.getElementById(pageId).classList.add('active');
+    }
+
+    function setActiveNav(navId) {
+        const navItems = document.querySelectorAll('nav a');
+        navItems.forEach(nav => {
+            nav.classList.remove('active');
+        });
+        document.getElementById(navId).classList.add('active');
+    }
+</script>
+
+    </section>  
+    <section class="skills" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-content">
+            <div class="skill">
+                <i class="fa-solid fa-shield-virus"></i>
+                <h3>Penetration Testing</h3>
+                <p>Expert in identifying and exploiting vulnerabilities to secure systems.</p>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-network-wired"></i>
+                <h3>Network Defense</h3>
+                <p>Proficient in implementing strategies to defend against network attacks.</p>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-lock"></i>
+                <h3>Ethical Hacking</h3>
+                <p>Skilled in ethical hacking practices to ensure security compliance.</p>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-database"></i>
+                <h3>Digital Forensics</h3>
+                <p>Experienced in digital forensics and data recovery techniques.</p>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-code"></i>
+                <h3>Programming</h3>
+                <p>Proficient in Python, Bash, and other scripting languages for security automation.</p>
+            </div>
+        </div>
+    </section>
+    <section class="education" id="education">
+        <h2 class="section-title">Education</h2>
+        <div class="education-content">
+            <div class="education-item">
+                <h3>Bachelor of Science in Information Technology</h3>
+                <p>University Name - Graduation Year</p>
+                <p>Specialization in Cybersecurity and Ethical Hacking.</p>
+            </div>
+            <div class="education-item">
+                <h3>Certified Ethical Hacker (CEH)</h3>
+                <p>Institution Name - Year</p>
+                <p>Comprehensive training in penetration testing and cybersecurity.</p>
+            </div>
+            <div class="education-item">
+                <h3>Certified Information Systems Security Professional (CISSP)</h3>
+                <p>Institution Name - Year</p>
+                <p>Advanced training in managing and securing IT infrastructures.</p>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="section-title">Services</h2>
+        <div class="services-content">
+            <div class="service">
+                <i class="fa-solid fa-bug"></i>
+                <h3>Vulnerability Assessment</h3>
+                <p>Comprehensive testing to identify and mitigate security flaws in systems.</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-hammer"></i>
+                <h3>Penetration Testing</h3>
+                <p>Simulating attacks to find and fix security weaknesses before they're exploited.</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-gear"></i>
+                <h3>Security Consulting</h3>
+                <p>Providing expert advice on securing IT infrastructures and data protection.</p>
+            </div>
+        </div>
+    </section>
+    <section class="experience" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-content">
+            <div class="experience-item">
+                <h3>Cybersecurity Analyst</h3>
+                <p>Company Name - Duration</p>
+                <p>Managed and conducted penetration tests and vulnerability assessments.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Network Security Engineer</h3>
+                <p>Company Name - Duration</p>
+                <p>Designed and implemented security measures to protect against cyber threats.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Freelance Security Consultant</h3>
+                <p>Company Name - Duration</p>
+                <p>Provided security consultation services for various IT companies.</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <div class="input-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <nav>
+        <a href="#" id="navHome" class="active">Home</a>
+        <a href="#" id="navServices">Services</a>
+        <a href="#" id="navSkills">Skills</a>
+        <a href="#" id="navEducation">Education</a>
+        <a href="#" id="navExperience">Experience</a>
+        <a href="#" id="navContact">Contact</a>
+    </nav>
+    
+    <!-- Other sections remain the same -->
+    
+    <div id="homePage" class="page active">
+        <!-- Home section content here -->
+    </div>
+    <div id="servicesPage" class="page">
+        <!-- Services section content here -->
+    </div>
+    <div id="skillsPage" class="page">
+        <!-- Skills section content here -->
+    </div>
+    <div id="educationPage" class="page">
+        <!-- Education section content here -->
+    </div>
+    <div id="experiencePage" class="page">
+        <!-- Experience section content here -->
+    </div>
+    <div id="contactPage" class="page">
+        <!-- Contact section content here -->
+    </div>
+                        
+    <script>
+        
+        // Mengarahkan ke halaman LinkedIn
+        document.getElementById("linkedin").onclick = function() {
+            window.location.href = "https://www.linkedin.com/in/mrflych/";
+        };
+
+        // Mengarahkan ke halaman GitHub
+        document.getElementById("github").onclick = function() {
+            window.location.href = "https://github.com/mrflych";
+        };
+
+        // Mengarahkan ke halaman Twitter
+        document.getElementById("twitter").onclick = function() {
+            window.location.href = "https://twitter.com/mrflych";
+        };
+
+        // Mengarahkan ke halaman Instagram
+        document.getElementById("instagram").onclick = function() {
+            window.location.href = "https://www.instagram.com/mrflych/";
+        };
+
+        // Mengarahkan ke WhatsApp ketika tombol "Hire me" diklik
+        document.getElementById("hireMe").onclick = function() {
+            window.location.href = "https://wa.me/6283895283995";
+        };
+    </script>
+
+</body>
+</html>
