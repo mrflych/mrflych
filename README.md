@@ -1,7 +1,7 @@
 # Hi there! I'm Leonio Aresya Nathaniel Josiah 🌟 
 
 ### 👨‍💻 About Me
-- 🏫 Student at **SMK AMI DELTAMASO**
+- 🏫 Student at **SMK AMI DELTAMAS**
 - 📚 Majoring in **Software Engineering**
 - 💎 Passionate about **Web Development, UI/UX, and AI**
 - 🔧 Tech Stack: **Laravel, React.js, Vue.js, Tailwind CSS, Bootstrap**
