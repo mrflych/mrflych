@@ -1,4 +1,4 @@
-# Hi there! I'm LuxxyFer Von Rochefory🌟 
+# Hi there! I'm Leon.io Von Arexya🌟 
 
 ### 👨‍💻 About Me
 - 🏫 Student at **SMK AMI DELTAMAS**
