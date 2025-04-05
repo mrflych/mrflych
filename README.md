@@ -1,7 +1,7 @@
 # Hi there! I'm Leon.io Von Arexya🌟 
 
 ### 👨‍💻 About Me
-- 🏫 Student at **SMK AMI DELTAMAS**
+- 🏫 Student at **SMK A**** M***** I***** DELTAMAS**
 - 📚 Majoring in **Software Engineering**
 - 💎 Passionate about **Web Development, UI/UX, and AI**
 - 🔧 Tech Stack: **Laravel, React.js, Vue.js, Tailwind CSS, Bootstrap**
