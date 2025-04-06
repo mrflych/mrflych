@@ -1,7 +1,7 @@
-# Hi there! I'm Leon.io Von Arexya🌟 
+# Hi there! I'm Ferdi F🌟 
 
 ### 👨‍💻 About Me
-- 🏫 Student at **SMK A**** M***** I***** DELTAMAS**
+- 🏫 Student at **UNIVERSITAS GADJAH MADA ( UGM )**
 - 📚 Majoring in **Software Engineering**
 - 💎 Passionate about **Web Development, UI/UX, and AI**
 - 🔧 Tech Stack: **Laravel, React.js, Vue.js, Tailwind CSS, Bootstrap**
