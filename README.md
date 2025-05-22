@@ -1,7 +1,7 @@
-# Hi there! I'm Leon.io Axversia🌟 
+# Hi there! I'm Ferdiansyah Fadhlan 🌟 
 
 ### 👨‍💻 About Me
-- 🏫 Student at **UNIVERSITAS GADJAH MADA ( UGM )**
+- 🏫 Student at **SMK Ananda Mitra Industri Deltamas**
 - 📚 Majoring in **Software Engineering**
 - 💎 Passionate about **Web Development, UI/UX, and AI**
 - 🔧 Tech Stack: **Laravel, React.js, Vue.js, Tailwind CSS, Bootstrap**
@@ -11,8 +11,7 @@
 - 🏆 Participating in **LKS Kota - Web Technology 2024**
 - 🔊 Building an **AI Chatbot for TikTok Live**
 - 🌟 Love designing modern UI with **Framer Motion & Tailwind CSS**
-### Martial Arts
-![PersaudaraaN Setia Hati Terate](https://raw.githubusercontent.com/Mutiaacode/Mutiaacode/main/psht-logo-77E7603CAD-seeklogo.com.png)
+
 ### 💡 Tech Stack
 ![Laravel](https://img.shields.io/badge/Laravel-F55247?style=for-the-badge&logo=laravel&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
