@@ -1,8 +1,8 @@
-# Hi there! I'm Leonio Aresya 🌟 
+# Hi there! I'm Aprilleon Nathaniel Aresya 🌟 
 
 ### 👨‍💻 About Me
-- 🏫 Student at **SMK Ananda Mitra Industri Deltamas**
-- 📚 Majoring in **Software Engineering**
+- 🏫 Student at **Universitas Gadjah Mada**
+- 📚 Majoring in **Computer Science**
 - 💎 Passionate about **Web Development, UI/UX, and AI**
 - 🔧 Tech Stack: **Laravel, React.js, Vue.js, Tailwind CSS, Bootstrap**
 - ✨ Currently working on: **Portfolio, AI-based projects, and Web Competitions**
