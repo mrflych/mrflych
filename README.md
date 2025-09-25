@@ -1,7 +1,6 @@
-# Hi there! I'm Aprilleon Nathaniel Aresya 🌟 
+# Hi there! I'm Kira🌟 
 
 ### 👨‍💻 About Me
-- 🏫 Student at **Universitas Gadjah Mada**
 - 📚 Majoring in **Computer Science**
 - 💎 Passionate about **Web Development, UI/UX, and AI**
 - 🔧 Tech Stack: **Laravel, React.js, Vue.js, Tailwind CSS, Bootstrap**
